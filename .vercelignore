@@ -1,0 +1,9 @@
+# Vercel ignore file
+.git
+.gitignore
+README.md
+node_modules
+.env.local
+wedding-backend
+.claude
+*.db
