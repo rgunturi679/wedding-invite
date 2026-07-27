@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+node_modules/
+**/node_modules/
 
 # next.js
 /.next/
@@ -25,3 +27,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# build artifacts
+dist/
+build/
+.cache/
+*.db
+wedding-backend/data/
+pnpm-lock.yaml
+package-lock.json
