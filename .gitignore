@@ -28,7 +28,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# build artifacts
+# build artifacts test
 dist/
 build/
 .cache/
