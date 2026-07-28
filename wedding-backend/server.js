@@ -25,7 +25,7 @@ app.use(
   cors({
     origin: function (origin, callback) {
       // Allow localhost on any port and production domain
-      if (!origin || origin.startsWith("http://localhost:") || origin === "https://your-domain.com") {
+      if (!origin || origin.startsWith("http://localhost:") || origin === "https://wedding-invite-lavivaah.vercel.app") {
         callback(null, true);
       } else {
         callback(new Error("Not allowed by CORS"));
